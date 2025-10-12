@@ -1,5 +1,5 @@
 # WavMark
-We provide a sample code of the WavMark method for defending against StarGAN. We will release the complete code on github soon.
+We provide a sample code of the WavMark method for defending against StarGAN.
 
 ## Usage
 
