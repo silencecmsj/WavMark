@@ -177,6 +177,9 @@ data/
     ├── 000002.png
     └── ...
 ```
+### 4. Checkpoint Download
+
+For your convenient usage, we prepare the weights download link in [Google Drive](https://drive.google.com/file/d/1TQUFE9tycLaxMGVW4cnV_0FvaZ3lTjxN/view?usp=sharing).
 
 ---
 
