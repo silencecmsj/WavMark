@@ -14,12 +14,11 @@ def init_noise(mode="zero", args=None):
         print("Invalid Noise Type")
         exit()
 
-
 def generate_normalized_features(batchsize, length):
     result = None
     for i in range(batchsize):
-        features = np.random.randn(length)
-        normalized_features = features / np.linalg.norm(features)
+        features = np.random.randn(length)  # 从标准正态分布中生成128个随机数
+        normalized_features = features / np.linalg.norm(features)  # 使用L2范数归一化
         if result == None:
             result = torch.Tensor(normalized_features).unsqueeze(0)
         else:
@@ -99,3 +98,7 @@ def Prepare_logger(eval=False):
     logger.addHandler(file_handler)
 
     return logger
+
+if __name__ == '__main__':
+    result = generate_normalized_features(5, 128)
+    print(result.shape)
