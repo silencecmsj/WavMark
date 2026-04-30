@@ -1,7 +1,7 @@
 # WavMark: Wavelet Transform-Based Versatile Watermarking for Facial Manipulation Source Tracing and Detection
 
 <p align="center">
-  <img src="image/logo.png" width="260" alt="WavMark Logo">
+  <img src="assets/logo.png" width="260" alt="WavMark Logo">
 </p>
 
 <p align="center">
@@ -44,7 +44,7 @@ The framework jointly considers imperceptibility, robustness, and semi-fragility
 
 ## 🧩 Framework
 
-![alt text](image/framework.png)
+![alt text](assets/framework.png)
 
 ---
 
@@ -53,16 +53,14 @@ The framework jointly considers imperceptibility, robustness, and semi-fragility
 ```text
 WavMark/
 ├── assets/
-│   └── wavmark_logo.png
+│   ├── logo.png
+│   ├── framework.png
 ├── checkpoints/
 │   └── your_checkpoint.tar
 ├── data/
-│   ├── CelebA_256.csv
 │   ├── CelebAHQ_256.csv
-│   ├── secret_image/
-│   │   ├── BlackWhite128.jpg
-│   │   └── BlackWhite256.jpg
-│   └── target_image/
+│   └── secret_image/
+│       └── BlackWhite256.jpg
 ├── module/
 │   ├── DualMark.py
 │   ├── noise_layers/
@@ -78,10 +76,7 @@ WavMark/
 ├── option.py
 ├── main.py
 ├── train.py
-├── validate.py
 ├── test.py
-├── example.py
-├── print_metric.py
 ├── requirements.txt
 └── README.md
 ```
