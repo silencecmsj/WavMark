@@ -28,7 +28,7 @@ Unlike conventional passive deepfake detection methods that identify forged cont
 - **Generic perturbation robustness** against common image operations such as compression, blur, noise, resizing, and color transformation.
 - **Facial manipulation sensitivity** against face swapping, reenactment, and attribute editing.
 
-The framework jointly considers imperceptibility, robustness, and semi-fragility in a unified end-to-end training pipeline.
+The framework jointly considers imperceptibility, robustness, and semi-fragility in a unified end-to-end training pipeline. The paper has been accepted by IP&M 2026.
 
 ---
 
